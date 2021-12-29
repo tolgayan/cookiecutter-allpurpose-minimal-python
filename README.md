@@ -53,6 +53,8 @@ logger.warning('warning log')
 logger.error('error log')
 ```
 
+The logs will be shown in terminal, and will be saved into `artifacts/logs/<timestamp>.log`
+
 ## Tests
 
 An example test case is added into `tests` folder. You can run tests using the following code:
