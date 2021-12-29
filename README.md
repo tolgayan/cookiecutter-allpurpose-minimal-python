@@ -5,7 +5,7 @@ A simple cookiecutter template for general-purpose python projects.
 
 ## Managing dependencies
 
-Note: Thıs template uses poetry. But if you want to use another tool for dependency management (pipenvö virtualenv etc.), you can skip this section
+Note: Thıs template uses poetry. But if you want to use another tool for dependency management (pipenv, virtualenv etc.), you can skip this section
 and use your own tool. No part of the template depends on poetry. But it may be easier to manage your environment, and
 to configure the tools such as black or pylint wıth poetry. 
 
