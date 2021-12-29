@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.description}}"
+authors = ["{{cookiecutter.author}}"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.2.5"
+black = "^21.12b0"
+isort = "^5.10.1"
+pylint = "^2.12.2"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "tests"]
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+line-length = 120
+disable = ["C0330", "C0103", "W1514"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

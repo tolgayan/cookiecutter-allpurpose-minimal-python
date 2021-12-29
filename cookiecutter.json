@@ -1,3 +1,6 @@
 {
-    "project_name": "project_name_here"
+    "project_name": "project_name_here",
+    "description": "description_here",
+    "version": "0.1.0",
+    "cookiecutter": "author"
 }
