@@ -1,5 +1,6 @@
-import logging
 import datetime
+import logging
+import sys
 
 
 def init_logger():
@@ -12,6 +13,7 @@ def init_logger():
 
     # define root logger
     rootLogger = logging.getLogger()
+    rootLogger.setLevel(logging.INFO)
 
     # add file handler to root logger
     fileHandler = logging.FileHandler(log_path)
@@ -19,6 +21,6 @@ def init_logger():
     rootLogger.addHandler(fileHandler)
 
     # add console handler to root logger
-    consoleHandler = logging.StreamHandler()
+    consoleHandler = logging.StreamHandler(sys.stdout)
     consoleHandler.setFormatter(logFormatter)
     rootLogger.addHandler(consoleHandler)
