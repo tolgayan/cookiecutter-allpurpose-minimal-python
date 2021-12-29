@@ -1,4 +1,6 @@
-# Project Title
+# {{cookiecutter.project_name}}
+
+{{cookiecutter.description}}
 
 ## Table of Contents
 
