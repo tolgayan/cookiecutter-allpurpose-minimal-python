@@ -1,3 +1,3 @@
 # cookiecutter-allpurpose-minimal-python
 
-A simple cookiecutter template for general-purpose python projects. It is most suitable for simple fastapi and data science projects, but I believe this template is suitable for many projects, maybe with some little tweaks.
+A simple cookiecutter template for general-purpose python projects. I believe this template is useful for many tasks, or it can be made useful with some little tweaks.
