@@ -32,9 +32,9 @@ To run a command in the environment, add `poetry run` to the beginning of that c
 Example:
 
 ```bash
-$poetry run python main.py <args>  # to run main.py 
-$poetry run black                  # to run black 
-$poetry run pylint src/ 
+poetry run python main.py <args>  # to run main.py 
+poetry run black                  # to run black 
+poetry run pylint src/ 
 ```
 
 
