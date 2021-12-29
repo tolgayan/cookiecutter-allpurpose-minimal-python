@@ -27,7 +27,7 @@ Configurations for packages such as black, isort, pylint etc. can be set in `pyp
 
 ## How to run
 
-To run a command in the environment, add `poetry run` to the beginning of that command.
+To run a command in the environment, add `poetry run` at the beginning of that command.
 
 Example:
 
