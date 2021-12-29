@@ -5,7 +5,8 @@ A simple cookiecutter template for general-purpose python projects.
 To use, run
 
 ```bash
-https://github.com/tolgayan/cookiecutter-allpurpose-minimal-python
+pip install cookiecutter
+cookiecutter https://github.com/tolgayan/cookiecutter-allpurpose-minimal-python
 ```
 
 
