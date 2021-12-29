@@ -5,7 +5,7 @@ import datetime
 def init_logger():
     # define logging path with the current time
     time = datetime.datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-    log_path = "artifacts/logs/{}.log" % time
+    log_path = "artifacts/logs/%s.log" % time
 
     # define log format
     logFormatter = logging.Formatter("%(asctime)s :: %(name)s :: %(levelname)s :: %(message)s")
