@@ -60,5 +60,7 @@ The logs will be shown in terminal, and will be saved into `artifacts/logs/<time
 An example test case is added into `tests` folder. You can run tests using the following code:
 
 ```bash
-$poetry run pytest tests/
+poetry run pytest tests/
+# or
+poetry run pytest
 ```
