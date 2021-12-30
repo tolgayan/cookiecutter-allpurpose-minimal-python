@@ -12,8 +12,8 @@ cookiecutter https://github.com/tolgayan/cookiecutter-allpurpose-minimal-python
 
 ## Managing dependencies
 
-Note: This template uses poetry. But if you want to use another tool for dependency management (pipenv, virtualenv etc.), you can skip this section
-and use your own tool. No part of the template depends on poetry. But it may be easier to manage your environment, and
+Note: This template uses poetry. But if you want to use another tool for dependency management (pipenv, virtualenv, conda etc.), you can skip this section
+and use your own tool. You can also delete `pyproject.toml` file. No part of the template depends on poetry. But it may be easier to manage your environment, and
 to configure the tools such as black or pylint wıth poetry. 
 
 
